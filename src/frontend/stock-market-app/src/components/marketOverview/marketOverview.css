@@ -1,0 +1,17 @@
+.ticker-container {
+    display: flex;
+    gap: 1rem;
+}
+.ticker-info {
+    display: flex;
+    gap: 0.4rem;
+}
+.buyingOption {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    width:200px;
+    gap: 0.3rem;
+}
+.buyingOption :first-child {
+    grid-column: 1/4;
+}
